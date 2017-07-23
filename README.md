@@ -40,6 +40,10 @@ We can:
 
 [picture of align tools]
 
+Remember that shapes stack, and you can control what shape appears in front by shifting them around in the lefthand sidebar. Things on top of the list appear in front. You can also group things so they all move together by dragging one of the items into another. It's best to limit complication, but stacking the layers may lead to some cool effects.
+
+![Stack the Layers](https://media.giphy.com/media/qVSxiAKBf5sc/giphy.gif)
+
 ### Colors
 Disclaimer: this site we're about to show you is super cool. Two of the authors just found out about it from the third author while writing this workshop.
 
@@ -48,13 +52,13 @@ Make your way over to [Coolors.com](https://coolors.co/). Click "start the gener
 Mash the spacebar until you find a color you like. Then click the lock button and mash space more, and you'll get an amazing, custom-tailored color scheme for your landing page. When you're happy, copy and paste the hex codes into Figma.
 
 ### Gradients
-[Add some funny shit about the history of gradients]
+Gradients made their way into web design with the birth of Web 2.0, near the dawn of this century. It is a close cousin of ombre, a fan favorite among young girls and pop punk enthusiasts experimenting with hair dyes. Gradients became grossly overused, and much like the pop punk scene, they dissipated into memory. They've since reached a renaissance in the form of color transitions, which relate two colors instead of a color and its lighter self. To use them correctly, there is a simple rule:
 
-Color transitions, on the other hand, are super in, if not overused.
+*Use A Little Slant*
 
-Select an element. Click the square of the fill, which will pop up a color selector. In the dropdown at the top, change "solid" to "linear". Then, try to pick two colors that work together (hint: use [coolors](https://coolors.co/)!). Drag the nodes around the shape to adjust the direction of the gradient.
+Vertical, horizontal, and corner-to-corner gradients stir repressed memories of the early 2000s, a time when website design was in its adolescent stage, rife with acne and body odor. If you want your site to look refined, a nice slant just off the horizontal can have a nice effect.
 
-Protip: vertical, horizontal, and corner-to-corner transitions bring back inklings of the early 2000s, a time when website design was in its adolescent stage, rife with acne and body odor. If you want the site to look refined, a nice slant just off the horizontal can have a nice effect.
+To make one, select an element. Click the square of the fill, which will pop up a color selector. In the dropdown at the top, change "solid" to "linear". Then, try to pick two colors that work together (hint: use [coolors](https://coolors.co/)!). Drag the nodes around the shape to adjust the direction of the gradient.
 
 ### Image Manipulation
 If you want an image in the background instead of colors, you can get some nice stock photos thanks to the generous open-source copyright policies of [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/). Go ahead and grab an image from there.
@@ -87,7 +91,7 @@ We can make a simple logo.
 ### Navbar
 Put the logo in the top left corner. Add some more text across the top. Maybe something like "Home", "About", and "Contact" would be good.
 
-By the way, command-0 will resize the frame to actual size, so you can see how the sizing will look when you put it on a screen.
+By the way, pressing 0 will resize the frame to actual size, so you can see how the sizing will look when you put it on a screen. 1 will zoom to fit all the frames, and if you select one frame, 2 will zoom to fit that selection.
 
 ### Impactful Quote
 This is pretty much more text. Make it **big** and add some **umph** with some **boldness**, **size**, and **contrast**.
