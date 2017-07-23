@@ -60,3 +60,47 @@ Protip: vertical, horizontal, and corner-to-corner transitions bring back inklin
 If you want an image in the background instead of colors, you can get some nice stock photos thanks to the generous open-source copyright policies of [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/). Go ahead and grab an image from there.
 
 If you're stumped for ideas, try "horizon", "skyline", or "delirious sausage".
+
+Insert it into the frame and play around! You can do extra fancy stuff with the "LAYER" menu on the right hand side.
+
+### Fonts
+Figma comes preloaded with Google Fonts, an amazingly large fonts library that makes you look even worse for using Comic Sans, or even Helvetica. You can explore the [Google Fonts website](https://fonts.google.com/) to find one that you like.
+
+When it comes to fonts, keep in mind:
+- Emphasis comes font weight. **Boldness** is emphasizing, and **contrast** is even more dramatic.
+- Connotation comes from the font-family. In general:
+  - Serifs look official
+  - Sans-serifs look inviting
+  - Handwritten looks personalized
+- You can combine multiple font-families to achieve mixes of these feelings.
+- Use colors accordingly, but don't overuse.
+
+### Logos
+We can make a simple logo.
+1. Create a circle
+2. Add your initials as text to the circle
+3. Change the font to something nice
+4. Select both and go to to booleans selector up top. Try subtract.
+5. Flatten the selection into one logo.
+6. Done!
+
+### Navbar
+Put the logo in the top left corner. Add some more text across the top. Maybe something like "Home", "About", and "Contact" would be good.
+
+By the way, command-0 will resize the frame to actual size, so you can see how the sizing will look when you put it on a screen.
+
+### Impactful Quote
+This is pretty much more text. Make it **big** and add some **umph** with some **boldness**, **size**, and **contrast**.
+
+### Call To Action
+Now we just need a button, and we're done! Use another rectangle. It would be nice to round the corners off to make it less Windows 10-y.
+
+Then we can add some text to convince our site visitor to do something. This can be anything from signing up to buying black market angler fish.
+
+### Hover Effects
+In CSS, we'll be adding effects on button hovers. It's good practice for a designer to specify what this hover effect will look like. Since all our mockups are static, we do this by making a second mockup alongside the first, and then recoloring or adding things to make another static page at a different point in time. Make two copies of the frame next to the one we just used. On the second one, make the background of the button slightly more opaque, which represents a button hover effect. On the third, add a line beneath the "Home" link in the navbar, which is what we want on a hover for the navbar buttons.
+
+### BOOM
+Congratulations, you just went from a blank screen to some gorgeous mockups. Now, we're going to use the mockups we've just made to build a site using HTML and CSS code!
+
+## Development: HTML and CSS
