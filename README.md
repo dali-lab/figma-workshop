@@ -7,6 +7,7 @@ Today, we'll be building mockups for a basic landing page, and then we'll take t
 
 - 💻 Devs are going to learn how to build some mockups
 - 🎨 Designers are going to explore some HTML and CSS
+- 🦄 Everyone is going to learn Figma
 
 And everyone will be taking their first steps toward glorious unicorndom!
 
@@ -22,13 +23,15 @@ Hit up that + button in the upper left hand corner (to make a new file), or pres
 
 I know, you're probably thinking: Wow, what a horribly boring mockup--it looks all blank. Don't worry, soon it'll look industry-standard level baller, and it'll have been all thanks to you.
 
+As a bonus, we created a Figma board that has some inspiration, explanations, and an example of the completed part 1. You can find that [here](https://www.figma.com/file/dIrnDebo3o5QPquUwNs7KuUf/Landing-Page-Design)!
+
 ### Adding a Frame
 To start, we'll need a frame. Click on the frame tool (or press the hotkey F) and then some options will appear on the right. Select "Desktop HD", and then a frame will appear in the view. You can drag it wherever you'd like.
 
 ⚠️ Note: for designers that know Sketch, these are the same as what Sketch calls "artboards".
 
 ### Working with Shapes
-Click the shapes tool in the top right corner. In the dropdown menu, select the square. Make on in the frame!
+Click the shapes tool in the top left corner. In the dropdown menu, select the rectangle. Make one in the frame!
 We can:
 - Resize: Just like you'd expect, drag the corner boxes
 - Rotate: move mouse just off corners, and drag
@@ -47,7 +50,7 @@ Remember that shapes stack, and you can control what shape appears in front by s
 ### Colors
 Disclaimer: this site we're about to show you is super cool. Two of the authors just found out about it from the third author while writing this workshop.
 
-Make your way over to [Coolors.com](https://coolors.co/). Click "start the generator". It's lit fam.
+Make your way over to [Coolors.co](https://coolors.co/). Click "start the generator". It's lit fam.
 
 Mash the spacebar until you find a color you like. Then click the lock button and mash space more, and you'll get an amazing, custom-tailored color scheme for your landing page. When you're happy, copy and paste the hex codes into Figma.
 
@@ -58,7 +61,9 @@ Gradients made their way into web design with the birth of Web 2.0, near the daw
 
 Vertical, horizontal, and corner-to-corner gradients stir repressed memories of the early 2000s, a time when website design was in its adolescent stage, rife with acne and body odor. If you want your site to look refined, a nice slant just off the horizontal can have a nice effect.
 
-To make one, select an element. Click the square of the fill, which will pop up a color selector. In the dropdown at the top, change "solid" to "linear". Then, try to pick two colors that work together (hint: use [coolors](https://coolors.co/)!). Drag the nodes around the shape to adjust the direction of the gradient.
+**Strategy 1:** To make one, select an element. Click the square of the fill, which will pop up a color selector. In the dropdown at the top, change "solid" to "linear". Then, try to pick two colors that work together (hint: use [coolors](https://coolors.co/)!). Drag the nodes around the shape to adjust the direction of the gradient.
+
+**Strategy 2:** Instead of generating your own gradient, theres a website that's almost as dope af as coolors. It's called [Grabient](https://www.grabient.com/), and it has preset gradients that you can play around with that are super pretty. Go ahead and play around with the site a little until you find one you like.
 
 ### Image Manipulation
 If you want an image in the background instead of colors, you can get some nice stock photos thanks to the generous open-source copyright policies of [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/). Go ahead and grab an image from there.
@@ -108,3 +113,11 @@ In CSS, we'll be adding effects on button hovers. It's good practice for a desig
 Congratulations, you just went from a blank screen to some gorgeous mockups. Now, we're going to use the mockups we've just made to build a site using HTML and CSS code!
 
 ## Development: HTML and CSS
+Chances are, by this point, we've spent most of our time on Figma. But that's okay! This is a Figma workshop, after all. Nevertheless, we're still going to get a sneak peak into how we move the designs we just made onto a real website.
+
+### Step 1: Clone This Repo
+(If you know how to do this, you can skip to step 2).
+
+You already see this README, so you're at our repo. If you haven't done so already, fork the repo by pressing the `fork` button in the upper right corner. Then, you'll be taken to your own account, with the project copied into it 🆒
+
+In the upper right, you'll see a green button that says "clone or download". Then paste the following code
