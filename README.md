@@ -171,7 +171,7 @@ And go to [this link](http://localhost:9000) (if you're curious, the link is to 
 "Yikes, it looks like a 90s website breeded with a dictionary." Yeah, yeah. Let's add styling!
 
 ### Step 4: CSS
-What did we design those mockups for anyway? Let's dive into CSS, short for Cascading Style Sheets, long for CSS. This is where the mockups get super valuable, because we can use the values from our mockups to help us assign values for attributes. You'll see what that means in a minute. For now, we need to link our stylesheet to our html file. Paste this line under the html comment that says `<--! your stylesheet here -->`:
+What did we design those mockups for anyway? Let's dive into CSS, short for Cascading Style Sheets, long for CSS. This is where the mockups get super valuable, because we can use the values from our mockups to help us assign values for attributes. You'll see what that means in a minute. For now, we need to link our stylesheet to our html file. Paste this line under the html comment that says `<!-- your stylesheet here -->`:
 
 `<link rel="stylesheet" href="style.css">`
 
